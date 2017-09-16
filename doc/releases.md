@@ -144,15 +144,15 @@ is shown in **bold** in the index. When updating the index, please make sure
 to update the display accordingly by removing the bold styling from the previous
 release.
 
-#### Step 3: Update any REPLACEME and DEP00XX tags in the docs
+#### Step 3: Update any v9.1.0-pre and DEP00XX tags in the docs
 
 If this release includes new APIs then it is necessary to document that they
 were first added in this version. The relevant commits should already include
-`REPLACEME` tags as per the example in the
+`v9.1.0-pre` tags as per the example in the
 [docs README](../tools/doc/README.md). Check for these tags with
-`grep REPLACEME doc/api/*.md`, and substitute this node version with
-`sed -i "s/REPLACEME/$VERSION/g" doc/api/*.md` or
-`perl -pi -e "s/REPLACEME/$VERSION/g" doc/api/*.md`.
+`grep v9.1.0-pre doc/api/*.md`, and substitute this node version with
+`sed -i "s/v9.1.0-pre/$VERSION/g" doc/api/*.md` or
+`perl -pi -e "s/v9.1.0-pre/$VERSION/g" doc/api/*.md`.
 
 If this release includes any new deprecations it is necessary to ensure that
 those are assigned a proper static deprecation code. These are listed in the
@@ -164,7 +164,7 @@ is run.
 ### 4. Create Release Commit
 
 The `CHANGELOG.md`, `doc/changelogs/CHANGELOG_*.md`, `src/node_version.h`, and
-`REPLACEME` changes should be the final commit that will be tagged for the
+`v9.1.0-pre` changes should be the final commit that will be tagged for the
 release. When committing these to git, use the following message format:
 
 ```txt

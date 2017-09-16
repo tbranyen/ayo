@@ -161,7 +161,7 @@ socket/stream from this function, or by passing the socket/stream to `callback`.
 
 ### agent.keepSocketAlive(socket)
 <!-- YAML
-added: REPLACEME
+added: v9.1.0-pre
 -->
 
 * `socket` {net.Socket}
@@ -181,7 +181,7 @@ it for use with the next request.
 
 ### agent.reuseSocket(socket, request)
 <!-- YAML
-added: REPLACEME
+added: v9.1.0-pre
 -->
 
 * `socket` {net.Socket}

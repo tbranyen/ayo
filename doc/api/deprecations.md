@@ -661,14 +661,6 @@ Type: Runtime
 
 `REPLServer.parseREPLKeyword()` was removed from userland visibility.
 
-<a id="DEP00XX"></a>
-### DEP00XX: tls.parseCertString()
-
-Type: Documentation-only
-
-`tls.parseCertString()` is a trivial parsing helper that was made public by
-mistake. This function can usually be replaced with:
-
 ```js
 const querystring = require('querystring');
 querystring.parse(str, '\n', '=');

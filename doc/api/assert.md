@@ -20,7 +20,7 @@ An alias of [`assert.ok()`][].
 <!-- YAML
 added: v0.1.21
 changes:
-  - version: REPLACEME
+  - version: v9.1.0-pre
     pr-url: https://github.com/nodejs/node/pull/15001
     description: Error names and messages are now properly compared
   - version: v8.0.0
@@ -109,10 +109,10 @@ parameter is an instance of an `Error` then it will be thrown instead of the
 <!-- YAML
 added: v1.2.0
 changes:
-  - version: REPLACEME
+  - version: v9.1.0-pre
     pr-url: https://github.com/nodejs/node/pull/15036
     description: NaN is now compared using the [SameValueZero][] comparison.
-  - version: REPLACEME
+  - version: v9.1.0-pre
     pr-url: https://github.com/nodejs/node/pull/15001
   - version: v8.5.0
     pr-url: https://github.com/nodejs/node/pull/12142
@@ -375,7 +375,7 @@ assert.ifError(new Error());
 <!-- YAML
 added: v0.1.21
 changes:
-  - version: REPLACEME
+  - version: v9.1.0-pre
     pr-url: https://github.com/nodejs/node/pull/15001
     description: Error names and messages are now properly compared
   - version: v8.0.0
@@ -440,10 +440,10 @@ parameter is an instance of an `Error` then it will be thrown instead of the
 <!-- YAML
 added: v1.2.0
 changes:
-  - version: REPLACEME
+  - version: v9.1.0-pre
     pr-url: https://github.com/nodejs/node/pull/15036
     description: NaN is now compared using the [SameValueZero][] comparison.
-  - version: REPLACEME
+  - version: v9.1.0-pre
     pr-url: https://github.com/nodejs/node/pull/15001
     description: Error names and messages are now properly compared
   - version: v8.0.0

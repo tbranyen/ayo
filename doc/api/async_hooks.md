@@ -70,7 +70,7 @@ function destroy(asyncId) { }
 #### `async_hooks.createHook(callbacks)`
 
 <!-- YAML
-added: REPLACEME
+added: v9.1.0-pre
 -->
 
 * `callbacks` {Object} the callbacks to register

@@ -458,7 +458,7 @@ s.bind(1234, () => {
 <!-- YAML
 added: v0.11.13
 changes:
-  - version: REPLACEME
+  - version: v9.1.0-pre
     pr-url: https://github.com/nodejs/node/pull/14560
     description: The `lookup` option is supported.
 -->

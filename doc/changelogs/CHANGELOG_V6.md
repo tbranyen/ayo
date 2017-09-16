@@ -2712,7 +2712,7 @@ Semver Patch:
 * [[`9e0cba0552`](https://github.com/nodejs/node/commit/9e0cba0552)] - **doc**: added information on how to run the linter. (Diosney Sarmiento) [#7534](https://github.com/nodejs/node/pull/7534)
 * [[`e13ee29cbd`](https://github.com/nodejs/node/commit/e13ee29cbd)] - **doc**: delete non-existing zlib constants (Franziska Hinkelmann) [#7520](https://github.com/nodejs/node/pull/7520)
 * [[`663b103bc5`](https://github.com/nodejs/node/commit/663b103bc5)] - **doc**: fix minor style issues in http.md (Rich Trott) [#7528](https://github.com/nodejs/node/pull/7528)
-* [[`6c4d4596cc`](https://github.com/nodejs/node/commit/6c4d4596cc)] - **doc**: updating REPLACEME tag during release (Gibson Fahnestock) [#7514](https://github.com/nodejs/node/pull/7514)
+* [[`6c4d4596cc`](https://github.com/nodejs/node/commit/6c4d4596cc)] - **doc**: updating v9.1.0-pre tag during release (Gibson Fahnestock) [#7514](https://github.com/nodejs/node/pull/7514)
 * [[`b4547340ee`](https://github.com/nodejs/node/commit/b4547340ee)] - **doc**: fix detached child stdio example (cjihrig) [#7540](https://github.com/nodejs/node/pull/7540)
 * [[`0f7b4efaaf`](https://github.com/nodejs/node/commit/0f7b4efaaf)] - **doc**: add bartosz sosnowski to colaborators (Bartosz Sosnowski) [#7567](https://github.com/nodejs/node/pull/7567)
 * [[`77afeb2ec7`](https://github.com/nodejs/node/commit/77afeb2ec7)] - **doc,dgram**: fix addMembership documentation (Santiago Gimeno) [#7244](https://github.com/nodejs/node/pull/7244)
@@ -2958,7 +2958,7 @@ Semver Patch:
 * [[`27ed7fc56c`](https://github.com/nodejs/node/commit/27ed7fc56c)] - **benchmark**: fix child-process-exec-stdout on win (Bartosz Sosnowski) [#7178](https://github.com/nodejs/node/pull/7178)
 * [[`5e5af8b4bb`](https://github.com/nodejs/node/commit/5e5af8b4bb)] - **benchmark**: fix child-process-read on Windows (Bartosz Sosnowski) [#6971](https://github.com/nodejs/node/pull/6971)
 * [[`d24e4095bf`](https://github.com/nodejs/node/commit/d24e4095bf)] - **benchmark**: add benchmark for Buffer.concat (Anna Henningsen) [#7054](https://github.com/nodejs/node/pull/7054)
-* [[`666b6f9302`](https://github.com/nodejs/node/commit/666b6f9302)] - **build**: add REPLACEME tag for version info in docs (Ben Noordhuis) [#6864](https://github.com/nodejs/node/pull/6864)
+* [[`666b6f9302`](https://github.com/nodejs/node/commit/666b6f9302)] - **build**: add v9.1.0-pre tag for version info in docs (Ben Noordhuis) [#6864](https://github.com/nodejs/node/pull/6864)
 * [[`6d3d2d1ae4`](https://github.com/nodejs/node/commit/6d3d2d1ae4)] - **cluster**: don't send messages if no IPC channel (Santiago Gimeno) [#7132](https://github.com/nodejs/node/pull/7132)
 * [[`068718c91c`](https://github.com/nodejs/node/commit/068718c91c)] - **debugger**: remove obsolete setTimeout (Rich Trott) [#7154](https://github.com/nodejs/node/pull/7154)
 * [[`2961f06f6f`](https://github.com/nodejs/node/commit/2961f06f6f)] - **debugger**: fix --debug-brk interaction with -e (Rich Trott) [#7089](https://github.com/nodejs/node/pull/7089)
@@ -3014,7 +3014,7 @@ Semver Patch:
 * [[`6ce26c8c8b`](https://github.com/nodejs/node/commit/6ce26c8c8b)] - **test**: add test for uid/gid setting in spawn (Rich Trott) [#7084](https://github.com/nodejs/node/pull/7084)
 * [[`40604b54d4`](https://github.com/nodejs/node/commit/40604b54d4)] - **test**: remove disabled eio race test (Rich Trott) [#7083](https://github.com/nodejs/node/pull/7083)
 * [[`9545c41cba`](https://github.com/nodejs/node/commit/9545c41cba)] - **tools**: fix license builder to work with icu-small (Myles Borins) [#7119](https://github.com/nodejs/node/pull/7119)
-* [[`6562c9fc75`](https://github.com/nodejs/node/commit/6562c9fc75)] - **tools,doc**: add example usage for REPLACEME tag (Anna Henningsen) [#6864](https://github.com/nodejs/node/pull/6864)
+* [[`6562c9fc75`](https://github.com/nodejs/node/commit/6562c9fc75)] - **tools,doc**: add example usage for v9.1.0-pre tag (Anna Henningsen) [#6864](https://github.com/nodejs/node/pull/6864)
 
 <a id="6.2.1"></a>
 ## 2016-06-02, Version 6.2.1 (Current), @rvagg
